@@ -1,0 +1,54 @@
+{
+  "name": "vue-template-plugin",
+  "version": "0.1.0-beta.0",
+  "description": "A template for create a Vue Plugin with Rollup",
+  "license": "MIT",
+  "private": false,
+  "plugin": {
+    "name": "VueTemplatePlugin",
+    "entryFile": "./index.js"
+  },
+  "author": {
+    "name": "Javier Diaz Chamorro",
+    "email": "hello@coderdiaz.me",
+    "url": "https://github.com/coderdiaz"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c --environment BUILD:production",
+    "prepare": "yarn build"
+  },
+  "main": "dist/vue-template-plugin.cjs.js",
+  "module": "dist/vue-template-plugin.esm.js",
+  "unpkg": "dist/vue-template-plugin.js",
+  "jsdelivr": "dist/vue-template-plugin.js",
+  "cdn": "dist/vue-template-plugin.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderdiaz/vue-template-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coderdiaz/vue-template-plugin/issues"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue-component",
+    "component",
+    "vue.js"
+  ],
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.16.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.0.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
