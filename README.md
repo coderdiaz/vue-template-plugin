@@ -27,13 +27,13 @@ $ yarn add vue-template-plugin
 
 ```html
 <div id="app">
-  <plugin message="Hello World"></plugin>
+  <plugin :message="message"></plugin>
 </div>
 ```
 
-You can use **Local Resitration**:
+You can use **Local Regitration**:
 ```js
-import {Plugin} from 'vue-teplate-plugin';
+import {Plugin} from 'vue-template-plugin';
 new Vue({
   el: '#app',
   data() {
@@ -66,7 +66,7 @@ https://unpkg.com/vue-template-plugin@latest/dist/vue-template-plugin.js
 ### Props
 |Name|Description|Type|Required|
 |---|---|---|---|
-|message|The message property sets an string to show|String|false|
+|message|The message property that will be displayed|String|false|
 
 ## Community
 All feedback and suggestions are welcome!
