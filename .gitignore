@@ -1,3 +1,12 @@
 node_modules/
-yarn-error.log
 dist/
+yarn-error.log
+npm-debug.log
+.DS_Store
+
+# Editor directories
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
