@@ -31,7 +31,7 @@ $ yarn add vue-template-plugin
 </div>
 ```
 
-You can use **Local Regitration**:
+You can use **Local Registration**:
 ```js
 import {Plugin} from 'vue-template-plugin';
 new Vue({
@@ -59,6 +59,9 @@ In browser you can use Unpkg, Jsdelivr, CDN.js, etc.
 ```sh
 # Unpkg
 https://unpkg.com/vue-template-plugin@latest/dist/vue-template-plugin.js
+
+# Jsdelivr
+https://cdn.jsdelivr.net/npm/vue-template-plugin@latest/dist/vue-template-plugin.min.js
 ```
 
 ## Documentation
