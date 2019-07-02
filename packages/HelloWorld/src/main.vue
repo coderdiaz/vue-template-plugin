@@ -8,7 +8,7 @@ export default {
   props: {
     message: {
       type: String,
-      default: 'Hello World'
+      default: 'Hello World',
     },
   },
 };
