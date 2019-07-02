@@ -15,7 +15,8 @@
   },
   "scripts": {
     "build": "rimraf dist && rollup -c --environment BUILD:production",
-    "prepare": "yarn build"
+    "prepare": "yarn eslint && yarn build",
+    "lint": "eslint -c .eslintrc.js . --ext .js,.vue"
   },
   "main": "dist/vue-template-plugin.cjs.js",
   "module": "dist/vue-template-plugin.esm.js",
@@ -40,6 +41,11 @@
     "vue.js"
   ],
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-vue": "^5.2.3",
     "rimraf": "^2.6.3",
     "rollup": "^1.16.3",
     "rollup-plugin-commonjs": "^10.0.1",
