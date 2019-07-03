@@ -5,7 +5,7 @@ const components = [
 ];
 
 export function install(Vue) {
-  if (install.installed ) return;
+  if (install.installed) return;
   install.installed = true;
   components.forEach((component) => {
     Vue.component(component.name, component);
