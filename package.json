@@ -1,6 +1,6 @@
 {
   "name": "vue-template-plugin",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
   "description": "A template for create a Vue Plugin with Rollup",
   "license": "MIT",
   "private": false,
