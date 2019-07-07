@@ -14,9 +14,10 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+$white-color: #e0e0e0;
 .hello-world {
-  background: #e0e0e0;
+  background: $white-color;
   padding: 10px;
 }
 </style>

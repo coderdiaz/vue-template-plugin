@@ -2,6 +2,7 @@ import vue from 'rollup-plugin-vue';
 import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
+import css from 'rollup-plugin-css-only';
 import pckg from './package.json';
 
 // Dynamic module config
@@ -75,7 +76,8 @@ const config = [
         extensions: ['.js', '.vue'],
       }),
       commonjs(),
-      vue(),
+      css(),
+      vue({ css: false }),
       terser(),
     ],
   },
