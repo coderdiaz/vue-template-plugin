@@ -11,6 +11,7 @@
     <a href="https://github.com/coderdiaz/vue-template-plugin/stargazers"><img src="https://img.shields.io/github/stars/coderdiaz/vue-template-plugin.svg?style=flat-square"></a>
     <a href="http://npmjs.com/package/vue-template-plugin"><img src="https://img.shields.io/npm/v/vue-template-plugin.svg?style=flat-square"></a>
     <a href="http://npmjs.com/package/vue-template-plugin"><img src="https://img.shields.io/npm/dm/vue-template-plugin.svg?style=flat-square"></a>
+    <a href="https://travis-ci.org/coderdiaz/vue-template-plugin"><img src="https://travis-ci.org/coderdiaz/vue-template-plugin.svg?branch=master&style=flat-square"></a>
 </p>
 
 ---
