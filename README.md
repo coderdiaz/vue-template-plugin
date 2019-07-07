@@ -27,13 +27,13 @@ $ yarn add vue-template-plugin
 
 ```html
 <div id="app">
-  <plugin :message="message"></plugin>
+  <HelloWorld :message="message" />
 </div>
 ```
 
 You can use **Local Registration**:
 ```js
-import {Plugin} from 'vue-template-plugin';
+import { HelloWorld } from 'vue-template-plugin';
 new Vue({
   el: '#app',
   data() {
@@ -42,15 +42,19 @@ new Vue({
     };
   },
   components: {
-    Plugin,
+    HelloWorld,
   },
 });
 ```
 
 or **Global Registration**:
 ```js
-import Plugin from 'vue-template-plugin';
-Vue.component('plugin', Plugin);
+import HelloWorld from 'vue-template-plugin';
+Vue.use(HelloWorld);
+
+// or with a custom component name
+import { HelloWorld } from 'vue-template-plugin';
+Vue.component('custom-hello-world', HelloWorld);
 ```
 
 ### Usage in browser
@@ -60,7 +64,7 @@ In browser you can use Unpkg, Jsdelivr, CDN.js, etc.
 # Unpkg
 https://unpkg.com/vue-template-plugin@latest/dist/vue-template-plugin.js
 
-# Jsdelivr
+# JSDelivr
 https://cdn.jsdelivr.net/npm/vue-template-plugin@latest/dist/vue-template-plugin.min.js
 ```
 
