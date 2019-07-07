@@ -1,11 +1,11 @@
-<p align="center">
-  <a href="#"><img src="https://vuejs.org/images/logo.png" width="120"></a>
-  <h2 align="center">&lt;vue-template-plugin&gt;</h2>
+<p>
+  <a href="#"><img src="https://vuejs.org/images/logo.png" width="70"></a>
+  <h2>&lt;vue-template-plugin&gt;</h2>
 </p>
 
-<p align="center">A template for create a Vue Plugin with Rollup</p>
+<p>A template for create a Vue Plugin with Rollup</p>
 
-<p align="center">
+<p>
     <a href="https://npmjs.com/package/vue-template-plugin"><img src="https://img.shields.io/npm/dt/vue-template-plugin.svg?style=flat-square"></a>
     <a href="https://github.com/coderdiaz/vue-template-plugin/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square"></a>
     <a href="https://github.com/coderdiaz/vue-template-plugin/stargazers"><img src="https://img.shields.io/github/stars/coderdiaz/vue-template-plugin.svg?style=flat-square"></a>
